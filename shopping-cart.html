@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping cart</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Open+Sans&display=swap"
+            rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="up-panel">
+    <div class="container">
+        <div class="logo"><a href="index.html"
+                             class="logo-link"><img src="img/logo.png" alt="Логотип" class="logo-img"></a>
+            <h1 class="logo-h1">bran<span class="logo-h1__span">d</span>
+            </h1></div>
+        <form action="#" class="nav-search"><a class="nav-search-menu" href="#">Browse <i class="fa fa-caret-down"
+                                                                                          aria-hidden="true"></i></a><input
+                type="search" class="search-item" placeholder="Search for item..."><a href="#" class="search"><i
+                class="fa fa-search" aria-hidden="true"></i></a></form>
+        <div class="pers-area"><a href="#" class="basket"><img src="img/basket.png" alt="Корзина"></a>
+            <a href="#" class="nav-account">My Account <i class="fa fa-caret-down"
+                                                          aria-hidden="true"></i></a></div>
+    </div>
+</header>
+<nav class="main-menu">
+    <a href="#" class="main-menu-link">Home</a>
+    <a href="#" class="main-menu-link">Man</a>
+    <a href="#" class="main-menu-link main-menu-link-active">Women</a>
+    <a href="#" class="main-menu-link">Kids</a>
+    <a href="#" class="main-menu-link">Accoseriese</a>
+    <a href="#" class="main-menu-link">Featured</a>
+    <a href="#" class="main-menu-link">Hot Deals</a>
+</nav>
+<section class="new-arrival">
+    <div class="container">
+        <h2>New Arrivals</h2>
+        <nav class="bread-cr">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">New Arrivals</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+<main class="main-shop-cart">
+    <div class="container">
+        <div class="shop-cart-titles">
+            <p class="shop-cart-title-p">Product details</p>
+            <p class="shop-cart-title-p">Unit price</p>
+            <p class="shop-cart-title-p">Quantity</p>
+            <p class="shop-cart-title-p">Shipping</p>
+            <p class="shop-cart-title-p">Subtotal</p>
+            <p class="shop-cart-title-p">Action</p>
+        </div>
+        <div class="shop-cart-item">
+            <div class="product-details">
+                <img src="img/fetured-item-prod1.jpg" alt="T-short" class="product-details-img">
+                <div class="product-info">
+                    <h6 class="product-title">Mango People T-Shirt</h6>
+                    <p class="product-property">Color: <span class="product-span">Red</span></p>
+                    <p class="product-property">Size: <span class="product-span">XII</span></p>
+                </div>
+            </div>
+            <p class="product-property-value unit-price">$150</p>
+            <p class="product-property-value quantity"><input type="number" value="2" min="0" max="1000"
+                                                              class="product-property-input"></p>
+            <p class="product-property-value shipping">Free</p>
+            <p class="product-property-value subtotal">$300</p>
+            <a href="#" class="product-property-value action"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+        </div>
+        <div class="shop-cart-item">
+            <div class="product-details">
+                <img src="img/fetured-item-prod2.jpg" alt="T-short" class="product-details-img">
+                <div class="product-info">
+                    <h6 class="product-title">Mango People T-Shirt</h6>
+                    <p class="product-property">Color: <span class="product-span">Red</span></p>
+                    <p class="product-property">Size: <span class="product-span">XII</span></p>
+                </div>
+            </div>
+            <p class="product-property-value unit-price">$150</p>
+            <p class="product-property-value quantity"><input type="number" value="2" min="0" max="1000"
+                                                              class="product-property-input"></p>
+            <p class="product-property-value shipping">Free</p>
+            <p class="product-property-value subtotal">$300</p>
+            <a href="#" class="product-property-value action"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+        </div>
+        <div class="shop-cart-item">
+            <div class="product-details">
+                <img src="img/fetured-item-prod5.jpg" alt="T-short" class="product-details-img">
+                <div class="product-info">
+                    <h6 class="product-title">Mango People T-Shirt</h6>
+                    <p class="product-property">Color: <span class="product-span">Red</span></p>
+                    <p class="product-property">Size: <span class="product-span">XII</span></p>
+                </div>
+            </div>
+            <p class="product-property-value unit-price">$150</p>
+            <p class="product-property-value quantity"><input type="number" value="2" min="0" max="1000"
+                                                              class="product-property-input"></p>
+            <p class="product-property-value shipping">Free</p>
+            <p class="product-property-value subtotal">$300</p>
+            <a href="#" class="product-property-value action"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+        </div>
+        <div class="shop-cart-buttons">
+            <button class="shop-cart-button">Clear shopping cart</button>
+            <button class="shop-cart-button">Continue shopping</button>
+        </div>
+        <div class="shop-cart-forms">
+            <div class="shop-cart-form shop-cart-shipping">
+                <p class="shop-cart-form-title">Shipping Adress</p>
+                <select class="shop-cart-form-input">
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="#">Country2</option>
+                    <option value="#">Country3</option>
+                </select>
+                <input type="text" class="shop-cart-form-input" placeholder="State">
+                <input type="number" min="000000" max="999999" class="shop-cart-form-input no-arrow"
+                       placeholder="Postcode / Zip">
+                <button class="get-a-quote">get a quote</button>
+            </div>
+            <div class="shop-cart-form shop-cart-coupon">
+                <p class="shop-cart-form-title">coupon discount</p>
+                <p class="shop-cart-form-text">Enter your coupon code if you have one</p>
+                <input type="text" class="shop-cart-form-input" placeholder="State">
+                <button class="apply-coupon">Apply coupon</button>
+            </div>
+            <div class="shop-cart-form shop-cart-final">
+                <div class="shop-cart-final-sum">
+                    <p class="sub-total">Sub total <span class="sub-total-span">$900</span></p>
+                    <p class="grand-total">Grand Total <span class="grand-total-span">$900</span></p>
+                </div>
+                <button class="buy-item">proceed to checkout</button>
+            </div>
+        </div>
+    </div>
+</main>
+<section class="subscribe">
+    <div class="container">
+        <div class="subscribe-review">
+            <img src="img/subsc_foto.png" alt="Фото" class="subscribe-review__img">
+            <article class="subscribe-review__article">
+                <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                <p>Bin Burhan</p> <span class="subscribe-review__span">Dhaka, Bd</span>
+                <div class="subscribe-review__pagination">
+                    <a href="#" class="subscribe-review__link"></a>
+                    <a href="#" class="subscribe-review__link subscribe-review__link-active"></a>
+                    <a href="#" class="subscribe-review__link"></a>
+                </div>
+            </article>
+        </div>
+        <div class="subscribe-form">
+            <h6 class="subscribe-container-h6">Subscribe</h6>
+            <p class="subscribe-container__subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
+            <form action="#" class="send-form">
+                <input type="email" placeholder="Enter Your Email" class="send-form__input"><button class="send-form__button">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo"><a href="index.html"
+                                     class="logo-link"><img src="img/logo.png" alt="Логотип" class="logo-img"></a>
+                    <h1 class="logo-h1">bran<span class="logo-h1__span">d</span>
+                    </h1></div>
+                <p class="footer-logo-text">Objectively transition extensive data rather than cross functional
+                    solutions.
+                    Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly
+                    syndicate an expanded array of processes and cross-unit partnerships.</p>
+                <p class="footer-logo-text">Efficiently plagiarize 24/365 action items and focused infomediaries.</p>
+                <p class="footer-logo-text">Distinctively seize superior initiatives for wireless technologies.
+                    Dynamically
+                    optimize.</p>
+            </div>
+            <div class="footer-menu">
+                <nav class="footer-menu-col">
+                    <p class="footer-menu-title">Company</p>
+                    <a href="#" class="footer-menu-link">Home</a>
+                    <a href="#" class="footer-menu-link">Shop</a>
+                    <a href="#" class="footer-menu-link">About</a>
+                    <a href="#" class="footer-menu-link">How It Work</a>
+                    <a href="#" class="footer-menu-link">Contact</a>
+                </nav>
+                <nav class="footer-menu-col">
+                    <p class="footer-menu-title">Information</p>
+                    <a href="#" class="footer-menu-link">Tearms & Condition</a>
+                    <a href="#" class="footer-menu-link">Privacy Policy</a>
+                    <a href="#" class="footer-menu-link">How to Buy</a>
+                    <a href="#" class="footer-menu-link">How to Sell</a>
+                    <a href="#" class="footer-menu-link">Promotion</a>
+                </nav>
+                <nav class="footer-menu-col">
+                    <p class="footer-menu-title">Shop Category</p>
+                    <a href="#" class="footer-menu-link">Men</a>
+                    <a href="#" class="footer-menu-link">Women</a>
+                    <a href="#" class="footer-menu-link">Child</a>
+                    <a href="#" class="footer-menu-link">Apparel</a>
+                    <a href="#" class="footer-menu-link">Brows All</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="down-panel">
+        <div class="down-panel-block">
+            <p class="footer-policy">&copy; 2017 Brand All Rights Reserved.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>

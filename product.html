@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product</title>
+    <title>MainPage</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Open+Sans&display=swap"
+            rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="up-panel">
+    <div class="container">
+        <div class="logo"><a href="index.html"
+                             class="logo-link"><img src="img/logo.png" alt="Логотип" class="logo-img"></a>
+            <h1 class="logo-h1">bran<span class="logo-h1__span">d</span>
+            </h1></div>
+        <form action="#" class="nav-search"><a class="nav-search-menu" href="#">Browse <i class="fa fa-caret-down"
+                                                                                          aria-hidden="true"></i></a><input
+                type="search" class="search-item" placeholder="Search for item..."><a href="#" class="search"><i
+                class="fa fa-search" aria-hidden="true"></i></a></form>
+        <div class="pers-area"><a href="#" class="basket"><img src="img/basket.png" alt="Корзина"></a>
+            <a href="#" class="nav-account">My Account <i class="fa fa-caret-down"
+                                                          aria-hidden="true"></i></a></div>
+    </div>
+</header>
+<nav class="main-menu">
+    <a href="#" class="main-menu-link">Home</a>
+    <a href="#" class="main-menu-link main-menu-link-active">Man</a>
+    <a href="#" class="main-menu-link">Women</a>
+    <a href="#" class="main-menu-link">Kids</a>
+    <a href="#" class="main-menu-link">Accoseriese</a>
+    <a href="#" class="main-menu-link">Featured</a>
+    <a href="#" class="main-menu-link">Hot Deals</a>
+</nav>
+<section class="new-arrival">
+    <div class="container">
+        <h2>New Arrivals</h2>
+        <nav class="bread-cr">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">New Arrivals</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+<main class="main-product">
+    <div class="container">
+        <div class="filter-aside">
+            <div class="filter-aside-item">
+                <input type="checkbox" id="filter-aside-item-1" class="filter-aside-input" checked>
+                <label for="filter-aside-item-1" class="filter-aside-label">Category</label>
+                <nav class="filter-aside-content">
+                    <a href="#" class="filter-aside-link">Accessories</a>
+                    <a href="#" class="filter-aside-link">Bags</a>
+                    <a href="#" class="filter-aside-link">Denim</a>
+                    <a href="#" class="filter-aside-link">Hoodies & Sweatshirts</a>
+                    <a href="#" class="filter-aside-link">Jackets & Coats</a>
+                    <a href="#" class="filter-aside-link">Pants</a>
+                    <a href="#" class="filter-aside-link">Polos</a>
+                    <a href="#" class="filter-aside-link">Shirts</a>
+                    <a href="#" class="filter-aside-link">Shoes</a>
+                    <a href="#" class="filter-aside-link">Shorts</a>
+                    <a href="#" class="filter-aside-link">Sweaters & Knits</a>
+                    <a href="#" class="filter-aside-link">T-Shirts</a>
+                    <a href="#" class="filter-aside-link">Tanks</a>
+                </nav>
+            </div>
+            <div class="filter-aside-item">
+                <input type="checkbox" id="filter-aside-item-2" class="filter-aside-input">
+                <label for="filter-aside-item-2" class="filter-aside-label">Brand</label>
+                <nav class="filter-aside-content">
+                    <a href="#" class="filter-aside-link"></a>
+                </nav>
+            </div>
+            <div class="filter-aside-item">
+                <input type="checkbox" id="filter-aside-item-3" class="filter-aside-input">
+                <label for="filter-aside-item-3" class="filter-aside-label">Designer</label>
+                <nav class="filter-aside-content">
+                    <a href="#" class="filter-aside-link"></a>
+                </nav>
+            </div>
+        </div>
+        <div class="products">
+            <div class="filters-center">
+                <form action="#" class="filters-center__form filters-center__form-trending">
+                    <h4 class="filters-center-h4">Trending now</h4>
+                    <input type="radio" name="trend" id="trend-1" class="filters-center__form-input"><label
+                        for="trend-1"
+                                                                            class="trending-label">Bohemian
+                </label><span
+                        class="board">|</span>
+                    <input type="radio" name="trend" id="trend-2" class="filters-center__form-input"><label for="trend-2"
+                                                                         class="trending-label">Floral</label><span
+                        class="board">|</span>
+                    <input type="radio" name="trend" id="trend-3" class="filters-center__form-input"><label for="trend-3"
+                                                                         class="trending-label">Lace</label>
+                    <input type="radio" name="trend" id="trend-4" class="filters-center__form-input"><label for="trend-4"
+                                                                         class="trending-label">Floral</label><span
+                        class="board">|</span>
+                    <input type="radio" name="trend" id="trend-5" class="filters-center__form-input"><label for="trend-5"
+                                                                         class="trending-label">Lace</label><span
+                        class="board">|</span>
+                    <input type="radio" name="trend" id="trend-6" class="filters-center__form-input"><label for="trend-6"
+                                                                         class="trending-label">Bohemian</label>
+                </form>
+                <form action="#" class="filters-center__form filters-center__form-size">
+                    <h4 class="filters-center-h4">Size</h4>
+                    <div class="size-items-wrapper">
+                        <div class="size-vertical-wrapper">
+                            <label class="size-item"><input type="checkbox" class="filters-center__form-input"><span class="checkmark"></span>XXS</label>
+                            <label class="size-item"><input type="checkbox" class="filters-center__form-input"><span class="checkmark"></span>L</label>
+                        </div>
+                        <div class="size-vertical-wrapper">
+                            <label class="size-item"><input type="checkbox" class="filters-center__form-input"><span class="checkmark"></span>XS</label>
+                            <label class="size-item"><input type="checkbox" class="filters-center__form-input"><span class="checkmark"></span>XL</label>
+                        </div>
+                        <div class="size-vertical-wrapper">
+                            <label class="size-item"><input type="checkbox" class="filters-center__form-input"><span class="checkmark"></span>S</label>
+                            <label class="size-item"><input type="checkbox" class="filters-center__form-input"><span class="checkmark"></span>XXL</label>
+                        </div>
+                        <div class="size-vertical-wrapper">
+                            <label class="size-item"><input type="checkbox" class="filters-center__form-input"><span class="checkmark"></span>M</label>
+                        </div>
+                    </div>
+                </form>
+                <form action="#" class="filters-center__form filters-center__form-price">
+                    <h4 class="filters-center-h4">Price</h4>
+                    <div class="price-range">
+                        <div class="price-range__value"></div>
+                    </div>
+                    <div class="all-price">
+                        <span class="low-price">52$</span><span class="high-price">400$</span></div>
+                </form>
+            </div>
+            <div class="sorting">
+                <div class="sort">
+                    <p class="sort-name">Sort By</p>
+                    <select class="sort-select"> <!--name="" id=""-->
+                        <option value="Name">Name</option>
+                    </select>
+                </div>
+                <div class="sort">
+                    <p class="sort-name">Show</p>
+                    <select class="sort-select" name="" id="">
+                        <option value="9">09</option>
+                    </select>
+                </div>
+            </div>
+            <div class="fetured-items-block">
+                <div class="fetured-cart-item">
+                    <div class="fetured-cart-hover">
+                        <div class="add-to-cart"><a
+                                href="#"><img src="img/basket_small.png" alt="Добавить в корзину"></a>
+                            <span class="add-to-cart__span">Add to Cart</span>
+                        </div>
+                    </div>
+                    <img src="img/fetured-item-prod1.jpg" alt="T-Short">
+                    <p class="fetured-item-name">Mango People T-shirt<span class="fetured-item-span">$52.00</span></p>
+                </div>
+                <div class="fetured-cart-item">
+                    <div class="fetured-cart-hover">
+                        <div class="add-to-cart"><a
+                                href="#"><img src="img/basket_small.png" alt="Добавить в корзину"></a>
+                            <span class="add-to-cart__span">Add to Cart</span>
+                        </div>
+                    </div>
+                    <img src="img/fetured-item-prod2.jpg" alt="T-Short">
+                    <p class="fetured-item-name">Mango People T-shirt<span class="fetured-item-span">$52.00</span></p>
+                </div>
+                <div class="fetured-cart-item">
+                    <div class="fetured-cart-hover">
+                        <div class="add-to-cart"><a
+                                href="#"><img src="img/basket_small.png" alt="Добавить в корзину"></a>
+                            <span class="add-to-cart__span">Add to Cart</span>
+                        </div>
+                    </div>
+                    <img src="img/fetured-item3.jpg" alt="T-Short">
+                    <p class="fetured-item-name">Mango People T-shirt<span class="fetured-item-span">$52.00</span></p>
+                </div>
+                <div class="fetured-cart-item">
+                    <div class="fetured-cart-hover">
+                        <div class="add-to-cart"><a
+                                href="#"><img src="img/basket_small.png" alt="Добавить в корзину"></a>
+                            <span class="add-to-cart__span">Add to Cart</span>
+                        </div>
+                    </div>
+                    <img src="img/fetured-item-prod3.jpg" alt="T-Short">
+                    <p class="fetured-item-name">Mango People T-shirt<span class="fetured-item-span">$52.00</span></p>
+                </div>
+                <div class="fetured-cart-item">
+                    <div class="fetured-cart-hover">
+                        <div class="add-to-cart"><a
+                                href="#"><img src="img/basket_small.png" alt="Добавить в корзину"></a>
+                            <span class="add-to-cart__span">Add to Cart</span>
+                        </div>
+                    </div>
+                    <img src="img/fetured-item8.jpg" alt="T-Short">
+                    <p class="fetured-item-name">Mango People T-shirt<span class="fetured-item-span">$52.00</span></p>
+                </div>
+                <div class="fetured-cart-item">
+                    <div class="fetured-cart-hover">
+                        <div class="add-to-cart"><a
+                                href="#"><img src="img/basket_small.png" alt="Добавить в корзину"></a>
+                            <span class="add-to-cart__span">Add to Cart</span>
+                        </div>
+                    </div>
+                    <img src="img/fetured-item-prod4.jpg" alt="T-Short">
+                    <p class="fetured-item-name">Mango People T-shirt<span class="fetured-item-span">$52.00</span></p>
+                </div>
+                <div class="fetured-cart-item">
+                    <div class="fetured-cart-hover">
+                        <div class="add-to-cart"><a
+                                href="#"><img src="img/basket_small.png" alt="Добавить в корзину"></a>
+                            <span class="add-to-cart__span">Add to Cart</span>
+                        </div>
+                    </div>
+                    <img src="img/fetured-item6.jpg" alt="T-Short">
+                    <p class="fetured-item-name">Mango People T-shirt<span class="fetured-item-span">$52.00</span></p>
+                </div>
+                <div class="fetured-cart-item">
+                    <div class="fetured-cart-hover">
+                        <div class="add-to-cart"><a
+                                href="#"><img src="img/basket_small.png" alt="Добавить в корзину"></a>
+                            <span class="add-to-cart__span">Add to Cart</span>
+                        </div>
+                    </div>
+                    <img src="img/fetured-item-prod5.jpg" alt="T-Short">
+                    <p class="fetured-item-name">Mango People T-shirt<span class="fetured-item-span">$52.00</span></p>
+                </div>
+                <div class="fetured-cart-item">
+                    <div class="fetured-cart-hover">
+                        <div class="add-to-cart"><a
+                                href="#"><img src="img/basket_small.png" alt="Добавить в корзину"></a>
+                            <span class="add-to-cart__span">Add to Cart</span>
+                        </div>
+                    </div>
+                    <img src="img/fetured-item-prod6.jpg" alt="T-Short">
+                    <p class="fetured-item-name">Mango People T-shirt<span class="fetured-item-span">$52.00</span></p>
+                </div>
+            </div>
+            <div class="fetured-items-nav">
+                <div class="fetured-items-links">
+                    <a href="#" class="fetured-items-nav-link"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                    <a href="#" class="fetured-items-nav-link">1</a>
+                    <a href="#" class="fetured-items-nav-link">2</a>
+                    <a href="#" class="fetured-items-nav-link">3</a>
+                    <a href="#" class="fetured-items-nav-link">4</a>
+                    <a href="#" class="fetured-items-nav-link">5</a>
+                    <a href="#" class="fetured-items-nav-link">6</a>
+                    <a href="#" class="fetured-items-nav-link">20</a>
+                    <a href="#" class="fetured-items-nav-link"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+                <button class="view-all">View All</button>
+            </div>
+        </div>
+    </div>
+</main>
+<section class="banner-side-product">
+    <div class="container">
+        <div class="banner-side-blocks">
+            <div class="banner-side-block"><img src="img/off_wom_car.png" alt="Доставка" class="banner-side-img">
+                <div class="banner-side-block-text"><p>Free Delivery</p>Worldwide delivery on all. Authorit tively
+                    morph
+                    next-generation
+                    innov tion with extensive models.
+                </div>
+            </div>
+            <div class="banner-side-block"><img src="img/off_wom_sale.png" alt="Доставка" class="banner-side-img">
+                <div class="banner-side-block-text"><p>Sales & discounts</p>Worldwide delivery on all. Authorit
+                    tively
+                    morph
+                    next-generation
+                    innov tion with extensive models.
+                </div>
+            </div>
+            <div class="banner-side-block"><img src="img/off_wom_crown.png" alt="Доставка" class="banner-side-img">
+                <div class="banner-side-block-text"><p>Quality assurance</p>Worldwide delivery on all. Authorit
+                    tively
+                    morph
+                    next-generation
+                    innov tion with extensive models.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="subscribe">
+    <div class="container">
+        <div class="subscribe-review">
+            <img src="img/subsc_foto.png" alt="Фото" class="subscribe-review__img">
+            <article class="subscribe-review__article">
+                <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                <p>Bin Burhan</p> <span class="subscribe-review__span">Dhaka, Bd</span>
+                <div class="subscribe-review__pagination">
+                    <a href="#" class="subscribe-review__link"></a>
+                    <a href="#" class="subscribe-review__link subscribe-review__link-active"></a>
+                    <a href="#" class="subscribe-review__link"></a>
+                </div>
+            </article>
+        </div>
+        <div class="subscribe-form">
+            <h6 class="subscribe-container-h6">Subscribe</h6>
+            <p class="subscribe-container__subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
+            <form action="#" class="send-form">
+                <input type="email" placeholder="Enter Your Email" class="send-form__input"><button class="send-form__button">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo"><a href="index.html"
+                                     class="logo-link"><img src="img/logo.png" alt="Логотип" class="logo-img"></a>
+                    <h1 class="logo-h1">bran<span class="logo-h1__span">d</span>
+                    </h1></div>
+                <p class="footer-logo-text">Objectively transition extensive data rather than cross functional
+                    solutions.
+                    Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly
+                    syndicate an expanded array of processes and cross-unit partnerships.</p>
+                <p class="footer-logo-text">Efficiently plagiarize 24/365 action items and focused infomediaries.</p>
+                <p class="footer-logo-text">Distinctively seize superior initiatives for wireless technologies.
+                    Dynamically
+                    optimize.</p>
+            </div>
+            <div class="footer-menu">
+                <nav class="footer-menu-col">
+                    <p class="footer-menu-title">Company</p>
+                    <a href="#" class="footer-menu-link">Home</a>
+                    <a href="#" class="footer-menu-link">Shop</a>
+                    <a href="#" class="footer-menu-link">About</a>
+                    <a href="#" class="footer-menu-link">How It Work</a>
+                    <a href="#" class="footer-menu-link">Contact</a>
+                </nav>
+                <nav class="footer-menu-col">
+                    <p class="footer-menu-title">Information</p>
+                    <a href="#" class="footer-menu-link">Tearms & Condition</a>
+                    <a href="#" class="footer-menu-link">Privacy Policy</a>
+                    <a href="#" class="footer-menu-link">How to Buy</a>
+                    <a href="#" class="footer-menu-link">How to Sell</a>
+                    <a href="#" class="footer-menu-link">Promotion</a>
+                </nav>
+                <nav class="footer-menu-col">
+                    <p class="footer-menu-title">Shop Category</p>
+                    <a href="#" class="footer-menu-link">Men</a>
+                    <a href="#" class="footer-menu-link">Women</a>
+                    <a href="#" class="footer-menu-link">Child</a>
+                    <a href="#" class="footer-menu-link">Apparel</a>
+                    <a href="#" class="footer-menu-link">Brows All</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="down-panel">
+        <div class="down-panel-block">
+            <p class="footer-policy">&copy; 2017 Brand All Rights Reserved.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>
